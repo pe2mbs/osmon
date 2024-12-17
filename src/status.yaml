@@ -1,0 +1,104 @@
+message: ''
+parameters:
+- name: TEST
+  pid: /tmp/webserver/server.pid
+  process:
+    cmdline:
+    - /home/mbertens/src/python/osmon/.venv/bin/python
+    - /home/mbertens/src/python/processmon/test_procs/webserver.py
+    - --daemonize
+    cpu_num: 2
+    cpu_percent: 0.0
+    cpu_times:
+    - 1.68
+    - 0.15
+    - 0.0
+    - 0.0
+    - 0.0
+    create_time: 1734157250.42
+    cwd: /
+    environ:
+      CLUTTER_BACKEND: x11
+      COMPIZ_CONFIG_PROFILE: mint
+      CTYPE: nl_NL.utf8
+      DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1000/bus
+      DEFAULTS_PATH: /usr/share/gconf/mate.default.path
+      DESKTOP_SESSION: mate
+      DISPLAY: :0
+      GDMSESSION: mate
+      GDM_LANG: nl_NL
+      GIO_LAUNCHED_DESKTOP_FILE_PID: '4278'
+      GPG_AGENT_INFO: /run/user/1000/gnupg/S.gpg-agent:0:1
+      GTK3_MODULES: xapp-gtk3-module
+      GTK_MODULES: gail:atk-bridge
+      GTK_OVERLAY_SCROLLING: '0'
+      HOME: /home/mbertens
+      LANG: nl_NL.UTF-8
+      LANGE: nl_NL.utf8
+      LANGUAGE: nl_NL
+      LC_ADDRESS: nl_NL.UTF-8
+      LC_IDENTIFICATION: nl_NL.UTF-8
+      LC_MEASUREMENT: nl_NL.UTF-8
+      LC_MONETARY: nl_NL.UTF-8
+      LC_NAME: nl_NL.UTF-8
+      LC_NUMERIC: nl_NL.UTF-8
+      LC_PAPER: nl_NL.UTF-8
+      LC_TELEPHONE: nl_NL.UTF-8
+      LC_TIME: nl_NL.UTF-8
+      LOGNAME: mbertens
+      MANDATORY_PATH: /usr/share/gconf/mate.mandatory.path
+      MATE_DESKTOP_SESSION_ID: this-is-deprecated
+      PAPERSIZE: a4
+      PATH: /home/mbertens/src/python/osmon/.venv/bin:/home/mbertens/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mbertens/.dotnet/tools
+      PS1: '(.venv) '
+      PWD: /home/mbertens/src/python/osmon
+      PYCHARM_HOSTED: '1'
+      PYTHONIOENCODING: UTF-8
+      PYTHONPATH: /home/mbertens/src/python/osmon:/home/mbertens/src/python/osmon/src/osmon
+      PYTHONUNBUFFERED: '1'
+      QT_ACCESSIBILITY: '1'
+      QT_FONT_DPI: '96'
+      QT_SCALE_FACTOR: '1'
+      SESSION_MANAGER: local/matrix:@/tmp/.ICE-unix/3224,unix/matrix:/tmp/.ICE-unix/3224
+      SHELL: /bin/bash
+      SHLVL: '0'
+      SSH_AUTH_SOCK: /run/user/1000/keyring/ssh
+      USER: mbertens
+      VIRTUAL_ENV: /home/mbertens/src/python/osmon/.venv
+      XAUTHORITY: /home/mbertens/.Xauthority
+      XDG_CONFIG_DIRS: /etc/xdg/xdg-mate:/etc/xdg
+      XDG_CURRENT_DESKTOP: MATE
+      XDG_DATA_DIRS: /home/mbertens/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share/:/usr/share/mate:/home/mbertens/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+      XDG_GREETER_DATA_DIR: /var/lib/lightdm-data/mbertens
+      XDG_RUNTIME_DIR: /run/user/1000
+      XDG_SEAT: seat0
+      XDG_SEAT_PATH: /org/freedesktop/DisplayManager/Seat0
+      XDG_SESSION_CLASS: user
+      XDG_SESSION_DESKTOP: mate
+      XDG_SESSION_ID: c2
+      XDG_SESSION_PATH: /org/freedesktop/DisplayManager/Session0
+      XDG_SESSION_TYPE: x11
+      XDG_VTNR: '7'
+    exe: /usr/bin/python3.8
+    memory_info:
+    - 10158080
+    - 26578944
+    - 4849664
+    - 2416640
+    - 0
+    - 5664768
+    - 0
+    memory_percent: 0.06070186036516085
+    name: python
+    num_ctx_switches:
+    - 160
+    - 711
+    num_fds: 5
+    num_threads: 1
+    pid: 466623
+    ppid: 1
+    status: sleeping
+    terminal: null
+    username: mbertens
+status: true
+

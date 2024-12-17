@@ -1,0 +1,1 @@
+import osmon.__main__       # noqa

@@ -1,0 +1,16 @@
+version:            1
+monitor-interval:   10
+trace-level:        WARNING
+log-file:           /var/log/osmon.log
+user:               mbertens
+group:              mbertens
+processes:
+-   name:           TEST
+    process:        /home/mbertens/src/python/processmon/test_procs/webserver.py
+    pidfile:        /tmp/webserver/server.pid
+    arguments:
+    -   '--daemonize'
+    cwd:            /home/mbertens/src/python/processmon
+    user:           1000
+    group:          1000
+    restart-delay:  5
